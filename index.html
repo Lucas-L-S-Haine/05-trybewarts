@@ -94,9 +94,25 @@
     <!--Final do Form-->
 
 
-  <div id="trybewartsLogoArea">
-    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
-  </div>    
+    <div id="trybewartsLogoArea">
+      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
+    </div>
+    <select id = "house">
+      <option id = "gitnoria-house"></option>
+      <option id = "reactpuff-house"></option>
+      <option id = "corvinode-house"></option>
+      <option id = "pytherina-house"></option>
+    </select>
+
+    <div>
+      <label class = "textarea">
+        Deixe seu comentário:
+      </label>
+      <textarea id = "comentario" name = "comentario" rows = "10" cols = "50" maxlength = "500"></textarea>
+    </div>
+    <input id = "agreement" type = "checkbox" value = "agreement">
+    <label id = "label-infos" for = "agreement">Você concorda com o uso das informações acima?</label>
+
   </main>
   
 <!-- 
@@ -109,3 +125,13 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+<!-- 14. Crie campo de entrada para avaliar de 1 a 10 o nível de satisfação com a Trybewarts
+Pontos importantes:
+
+Um elemento com o id label-rate e o texto "Como você avalia a Trybewarts?" deverá ser criado
+O campo deve ser formado por dez radio buttons, contendo as opções de 1 a 10
+Os radio buttons devem ter o atributo value com o valor de suas opções de 1 a 10.
+Os radio buttons devem ter o atributo name com o valor "rate"
+Posicione os radio buttons para ficar lado a lado
+Posicione os radio buttons à direita da label -->
