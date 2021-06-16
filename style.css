@@ -135,13 +135,11 @@ header form button {
   flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
 #submit-btn {
   height: 25px;
   width: 115px;
 }
 
-=======
 
 .satisfactionArea {
   display: flex;
@@ -157,7 +155,6 @@ header form button {
   display: flex;
   flex-direction: row;
 }
->>>>>>> d6e332df49946f11e35a4ffa79aa54820e462920
 .footer {
   display: flex;
   justify-content: center;
