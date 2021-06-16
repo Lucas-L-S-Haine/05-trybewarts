@@ -88,3 +88,8 @@ header form button {
   width: 100%;
   flex-direction: row;
 }
+
+.emailAndHouse {
+  display: flex;
+  flex-direction: row;
+}

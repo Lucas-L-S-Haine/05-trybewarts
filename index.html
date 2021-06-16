@@ -25,10 +25,20 @@
     <!--Início do Form-->
     <form id = 'evaluation-form' action = '' onsubmit = '' method = ''>
       <div class="nameArea">
-        Nome: <input id = "input-name" placeholder = "Nome">
-        Sobrenome: <input id = "input-lastname" placeholder = "Sobrenome">
-      </div>      
-      Email: <input id = "input-email" placeholder = "Email">
+        <label for="input-name"> Nome: <input id = "input-name" placeholder = "Nome"></label>
+        <label for="input-lastname"> Sobrenome: <input id = "input-lastname" placeholder = "Sobrenome"></label>
+      </div>
+      <div class="emailAndHouse">
+        <label for="input-email"> Email: <input id = "input-email" placeholder = "Email"></label>
+        <label for="house">Casa
+        <select id = "house">
+          <option id = "gitnoria-house" value="Gitnória">Gitnória</option>
+          <option id = "reactpuff-house" value="Reactpuff">Reactpuff</option>
+          <option id = "corvinode-house" value="Corvinode">Corvinode</option>
+          <option id = "pytherina-house" value="Pytherina">Pytherina</option>
+        </select>
+      </label>
+      </div>
     </form>
     <!--Final do Form-->
 
@@ -37,12 +47,7 @@
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
   </div>    
   </main>
-  <select id = "house">
-    <option id = "gitnoria-house"></option>
-    <option id = "reactpuff-house"></option>
-    <option id = "corvinode-house"></option>
-    <option id = "pytherina-house"></option>
-  </select>
+  
 <!-- 
   O select deverá conter o id house
   Deverá conter a opção com text e value Gitnória e com o id gitnoria-house
