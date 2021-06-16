@@ -131,6 +131,11 @@ header form button {
   flex-wrap: wrap;
 }
 
+#submit-btn {
+  height: 25px;
+  width: 115px;
+}
+
 .footer {
   display: flex;
   justify-content: center;
