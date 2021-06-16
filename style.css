@@ -93,3 +93,28 @@ header form button {
   display: flex;
   flex-direction: row;
 }
+
+.familyArea {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  background-color: rosybrown;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.contentArea {
+
+}
+
+.familyAndContentArea {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+
+
