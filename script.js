@@ -1,7 +1,15 @@
 const btnLogin = document.getElementById('btnLogin');
 const btnEnviar = document.getElementById('submit-btn');
 const checkBotao = document.getElementById('agreement');
+const areaMensagem = document.getElementById('textarea');
+const quant = document.getElementById('counter');
 let botao = true;
+
+function contador() {
+  quant.textContent = 500 - areaMensagem.value.length;
+
+
+}
 
 function verificaLogin(event) {
   event.preventDefault();
@@ -23,6 +31,7 @@ function liberaBotao() {
 function adicionaListener() {
   btnLogin.addEventListener('click', verificaLogin);
   checkBotao.addEventListener('click', liberaBotao);
+  areaMensagem.addEventListener('keyup', contador);
 }
 
 window.onload = function load() {
