@@ -21,6 +21,8 @@ html , body {
 
 #main {
   display: flex;
+  height: 100%;
+  width: 100%;
 }
 
 #evaluation-form {
@@ -66,4 +68,17 @@ header form button {
 
 .trybewarts-header-title {
   align-self: center;
+}
+
+#trybewartsLogoArea {
+  height: 100%;
+  width: 605px;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
