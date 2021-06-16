@@ -126,3 +126,19 @@ header form button {
   width: 200px;
   flex-wrap: wrap;
 }
+
+
+.satisfactionArea {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  background-color: royalblue;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.ratingArea {
+  display: flex;
+  flex-direction: row;
+}
