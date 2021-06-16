@@ -14,4 +14,11 @@ html,body {
   display: flex;
   height: 100px;
   width: 100%;
+  align-items: center;
+}
+
+
+.trybewarts-header-logo {
+  height: 70px;
+  justify-self: flex-start;
 }
