@@ -82,3 +82,9 @@ header form button {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.nameArea {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
