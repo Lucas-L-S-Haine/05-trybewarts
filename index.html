@@ -24,9 +24,21 @@
   <main id = 'main'>
     <!--Início do Form-->
     <form id = 'evaluation-form' action = '' onsubmit = '' method = ''>
-      Nome: <input id = "input-name" placeholder = "Nome">
-      Sobrenome: <input id = "input-lastname" placeholder = "Sobrenome">
-      Email: <input id = "input-email" placeholder = "Email">
+      <div class="nameArea">
+        <label for="input-name"> Nome: <input id = "input-name" placeholder = "Nome"></label>
+        <label for="input-lastname"> Sobrenome: <input id = "input-lastname" placeholder = "Sobrenome"></label>
+      </div>
+      <div class="emailAndHouse">
+        <label for="input-email"> Email: <input id = "input-email" placeholder = "Email"></label>
+        <label for="house">Casa
+        <select id = "house">
+          <option id = "gitnoria-house" value="Gitnória">Gitnória</option>
+          <option id = "reactpuff-house" value="Reactpuff">Reactpuff</option>
+          <option id = "corvinode-house" value="Corvinode">Corvinode</option>
+          <option id = "pytherina-house" value="Pytherina">Pytherina</option>
+        </select>
+      </label>
+      </div>
     </form>
     <!--Final do Form-->
 
@@ -41,7 +53,23 @@
       <option id = "pytherina-house"></option>
     </select>
 
+    <div>
+      <label class = "textarea">
+        Deixe seu comentário:
+      </label>
+      <textarea id = "comentario" name = "comentario" rows = "10" cols = "50" maxlength = "500"></textarea>
+    </div>
+    <input id = "agreement" type = "checkbox" value = "agreement">
+    <label id = "label-infos" for = "agreement">Você concorda com o uso das informações acima?</label>
+
   </main>
+  
+<!-- 
+  O select deverá conter o id house
+  Deverá conter a opção com text e value Gitnória e com o id gitnoria-house
+  Deverá conter a opção com text e value Reactpuff e com o id reactpuff-house
+  Deverá conter a opção com text e value Corvinode e com o id corvinode-house
+  Deverá conter a opção com text e value Pytherina e com o id pytherina-house -->
 
   <script src="script.js"></script>
 </body>
