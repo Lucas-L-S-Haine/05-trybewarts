@@ -55,5 +55,9 @@ header form button {
   border: 1px solid gray;
 }
 
+.trybewarts-header-title {
+  align-self: center;
+}
+
 
 
