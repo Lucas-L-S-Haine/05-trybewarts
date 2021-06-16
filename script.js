@@ -7,8 +7,6 @@ let botao = true;
 
 function contador() {
   quant.textContent = 500 - areaMensagem.value.length;
-
-
 }
 
 function verificaLogin(event) {
