@@ -94,12 +94,10 @@ header form button {
   flex-direction: row;
 }
 
-<<<<<<< HEAD
 .textarea {
   display: flexbox;
 
 }
-=======
 .familyArea {
   display: flex;
   flex-direction: column;
@@ -132,4 +130,8 @@ header form button {
   width: 200px;
   flex-wrap: wrap;
 }
->>>>>>> 1b8f44104314428da661e861f598401b7413e5c2
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
