@@ -16,6 +16,6 @@ function adicionaListener() {
   btnLogin.addEventListener('click', verificaLogin);
 }
 
-window.onload = function () {
+window.onload = () => {
   adicionaListener();
 };
