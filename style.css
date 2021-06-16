@@ -1,0 +1,10 @@
+#main {
+  display: flex;
+  background-color: red;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  background-color: cyan;
+}
