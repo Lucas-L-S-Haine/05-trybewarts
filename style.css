@@ -106,6 +106,10 @@ header form button {
 }
 
 .contentArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -115,6 +119,12 @@ header form button {
   background-color: red;
   display: flex;
   flex-direction: row;
+}
+
+.checkBoxes {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
 }
 
 
